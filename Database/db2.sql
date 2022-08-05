@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 05, 2022 at 06:37 AM
+-- Generation Time: Aug 06, 2022 at 01:20 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -40,9 +40,7 @@ CREATE TABLE `tests` (
 --
 
 INSERT INTO `tests` (`id_test`, `test_date`, `score`, `subject`, `email`) VALUES
-(2, '2022-08-05', 94, 'English', 'b@me.com'),
-(9, '2022-08-04', 90, 'Accounting', 'c@me.com'),
-(10, '2022-08-04', 80, 'Geography', 'd@me.com');
+(2, '2022-08-04', 90, 'Math', 'beta@test.me');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +60,7 @@ ALTER TABLE `tests`
 -- AUTO_INCREMENT for table `tests`
 --
 ALTER TABLE `tests`
-  MODIFY `id_test` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_test` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
