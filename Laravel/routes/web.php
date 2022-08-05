@@ -14,5 +14,12 @@ use App\Http\Controllers\MultiDBTestController;
 |
 */
 
+    Route::get('/', function () {
+        return view('welcome');
+    });    
 
-    Route::get('/', [MultiDBTestController::class, 'Test']);
+    Route::get('/trial', [MultiDBTestController::class, 'Test']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
