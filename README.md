@@ -9,5 +9,6 @@
     - config/database.php => penambahan konfigurasi untuk database kedua(mysql2) [Line : 66 - 80]
 
 **Versi LARAVEL yang digunakan dalam projet ini adalah 9.X**
+
 **Untuk LARAVEL versi dibawahnya hanya perlu penyesuaian pada bagian route.php**
 
