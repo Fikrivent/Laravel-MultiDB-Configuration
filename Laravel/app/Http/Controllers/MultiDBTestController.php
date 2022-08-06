@@ -12,6 +12,7 @@ class MultiDBTestController extends Controller
     public function Test () {
 
     // Test using Query Builder(Facades\DB)
+    //test
 
     $command = "";
     // List Command = ['create','delete','update']
